@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxim/passGen/passGenLib/passGen.c
+passGen.h
+/home/maxim/passGen/passGenLib/passGen.h
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+stdio.h
+-
+
+/home/maxim/passGen/passGenLib/passGen.h
+

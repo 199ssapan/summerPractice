@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/source.dir/main.c.o  -o source  ../sortStringsLib/libsortStringsLib.a 

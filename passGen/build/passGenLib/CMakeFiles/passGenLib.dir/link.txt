@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpassGenLib.a  CMakeFiles/passGenLib.dir/passGen.c.o
+/usr/bin/ranlib libpassGenLib.a

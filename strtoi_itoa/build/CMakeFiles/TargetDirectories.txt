@@ -1,0 +1,8 @@
+/home/maxim/strtoi_itoa/build/CMakeFiles/rebuild_cache.dir
+/home/maxim/strtoi_itoa/build/CMakeFiles/edit_cache.dir
+/home/maxim/strtoi_itoa/build/source/CMakeFiles/rebuild_cache.dir
+/home/maxim/strtoi_itoa/build/source/CMakeFiles/edit_cache.dir
+/home/maxim/strtoi_itoa/build/source/CMakeFiles/source.dir
+/home/maxim/strtoi_itoa/build/strtoi_itoa_lib/CMakeFiles/rebuild_cache.dir
+/home/maxim/strtoi_itoa/build/strtoi_itoa_lib/CMakeFiles/edit_cache.dir
+/home/maxim/strtoi_itoa/build/strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxim/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.c
+strtoi_itoa.h
+/home/maxim/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.h
+stdio.h
+-
+stdlib.h
+-
+limits.h
+-
+
+/home/maxim/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.h
+

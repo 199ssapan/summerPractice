@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxim/sortStrings/sortStringsLib/sort.c
+sort.h
+/home/maxim/sortStrings/sortStringsLib/sort.h
+stdlib.h
+-
+stdio.h
+-
+
+/home/maxim/sortStrings/sortStringsLib/sort.h
+stdio.h
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstrtoi_itoa_lib.a  CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.o
+/usr/bin/ranlib libstrtoi_itoa_lib.a
