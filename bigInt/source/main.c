@@ -43,5 +43,8 @@ int main(int argc, char* argv[])
     }
     printf("c = ");
     print(c);
+    freeAll(a);
+    freeAll(b);
+    freeAll(c);
     return 0;
 }

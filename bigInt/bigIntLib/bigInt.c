@@ -22,8 +22,8 @@ bigInt *initializationBigInt(char *strNumber)
         bigNum->wordsCount = sizeWOExtraChars;
     else
         bigNum->wordsCount = sizeWOExtraChars + 1;
-    char *buf = (char *)malloc(sizeof(char) * (8 + 1));
-    bigNum->words = (unsigned *)malloc(sizeof(unsigned) * bigNum->wordsCount);
+    char* buf = (char*)malloc(sizeof(char) * (8 + 1));
+    bigNum->words = (unsigned*)malloc(sizeof(unsigned) * bigNum->wordsCount);
     int iter = 0;
     for (int i = 0; i < sizeWOExtraChars; i++)
     {
@@ -49,7 +49,7 @@ bigInt *initializationBigInt(char *strNumber)
     {
         bigNum->wordsCount--;
     }
-    
+    free(buf);
     return bigNum;
 }
 
@@ -441,4 +441,11 @@ int checkInput(char* str)
         }
     }
     return 0;
+}
+
+void freeAll(bigInt* a)
+{
+    free(a->words);
+    free(a);
+    return;
 }
