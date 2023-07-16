@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxim/strtoi_itoa
+CMAKE_SOURCE_DIR = /home/maxim/sumPrac/strtoi_itoa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxim/strtoi_itoa/build
+CMAKE_BINARY_DIR = /home/maxim/sumPrac/strtoi_itoa/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/maxim/strtoi_itoa/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxim/strtoi_itoa/build/CMakeFiles /home/maxim/strtoi_itoa/build/strtoi_itoa_lib/CMakeFiles/progress.marks
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxim/strtoi_itoa/build/CMakeFiles 0
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxim/sumPrac/strtoi_itoa/build/CMakeFiles /home/maxim/sumPrac/strtoi_itoa/build/strtoi_itoa_lib/CMakeFiles/progress.marks
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxim/sumPrac/strtoi_itoa/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/clean
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/preinstall
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/preinstall
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/maxim/strtoi_itoa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/rule:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/rule
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/rule
 .PHONY : strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ strtoi_itoa_lib: strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/rule
 
 # fast build rule for target.
 strtoi_itoa_lib/fast:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build.make strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build.make strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build
 .PHONY : strtoi_itoa_lib/fast
 
 strtoi_itoa.o: strtoi_itoa.c.o
@@ -131,7 +131,7 @@ strtoi_itoa.o: strtoi_itoa.c.o
 
 # target to build an object file
 strtoi_itoa.c.o:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build.make strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.o
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build.make strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.o
 .PHONY : strtoi_itoa.c.o
 
 strtoi_itoa.i: strtoi_itoa.c.i
@@ -140,7 +140,7 @@ strtoi_itoa.i: strtoi_itoa.c.i
 
 # target to preprocess a source file
 strtoi_itoa.c.i:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build.make strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.i
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build.make strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.i
 .PHONY : strtoi_itoa.c.i
 
 strtoi_itoa.s: strtoi_itoa.c.s
@@ -149,7 +149,7 @@ strtoi_itoa.s: strtoi_itoa.c.s
 
 # target to generate assembly for a file
 strtoi_itoa.c.s:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build.make strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.s
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/build.make strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.s
 .PHONY : strtoi_itoa.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/maxim/strtoi_itoa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

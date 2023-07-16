@@ -1,4 +1,4 @@
-# Install script for directory: /home/maxim/strtoi_itoa
+# Install script for directory: /home/maxim/sumPrac/strtoi_itoa
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/maxim/strtoi_itoa/build/source/cmake_install.cmake")
-  include("/home/maxim/strtoi_itoa/build/strtoi_itoa_lib/cmake_install.cmake")
+  include("/home/maxim/sumPrac/strtoi_itoa/build/source/cmake_install.cmake")
+  include("/home/maxim/sumPrac/strtoi_itoa/build/strtoi_itoa_lib/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/maxim/strtoi_itoa/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/maxim/sumPrac/strtoi_itoa/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

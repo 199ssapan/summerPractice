@@ -4,3 +4,5 @@ int getBase(const char* str, int* isPrefix, char* retCharBase);
 unsigned myStrlen(const char* string);
 int checkDigits(const char* string, char base);
 int myItoa (char *buf, int bufSize, int value, int p);
+void testStrtoi();
+void testItoa();

@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/maxim/strtoi_itoa/source/../strtoi_itoa_lib 
+C_INCLUDES = -I/home/maxim/sumPrac/strtoi_itoa/source/../strtoi_itoa_lib 
 

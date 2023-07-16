@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxim/strtoi_itoa
+CMAKE_SOURCE_DIR = /home/maxim/sumPrac/strtoi_itoa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxim/strtoi_itoa/build
+CMAKE_BINARY_DIR = /home/maxim/sumPrac/strtoi_itoa/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/maxim/strtoi_itoa/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxim/strtoi_itoa/build/CMakeFiles /home/maxim/strtoi_itoa/build/source/CMakeFiles/progress.marks
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxim/strtoi_itoa/build/CMakeFiles 0
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxim/sumPrac/strtoi_itoa/build/CMakeFiles /home/maxim/sumPrac/strtoi_itoa/build/source/CMakeFiles/progress.marks
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxim/sumPrac/strtoi_itoa/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/clean
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/maxim/strtoi_itoa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/CMakeFiles/source.dir/rule:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/source.dir/rule
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/source.dir/rule
 .PHONY : source/CMakeFiles/source.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ source: source/CMakeFiles/source.dir/rule
 
 # fast build rule for target.
 source/fast:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f source/CMakeFiles/source.dir/build.make source/CMakeFiles/source.dir/build
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f source/CMakeFiles/source.dir/build.make source/CMakeFiles/source.dir/build
 .PHONY : source/fast
 
 main.o: main.c.o
@@ -131,7 +131,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f source/CMakeFiles/source.dir/build.make source/CMakeFiles/source.dir/main.c.o
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f source/CMakeFiles/source.dir/build.make source/CMakeFiles/source.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -140,7 +140,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f source/CMakeFiles/source.dir/build.make source/CMakeFiles/source.dir/main.c.i
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f source/CMakeFiles/source.dir/build.make source/CMakeFiles/source.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -149,7 +149,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/maxim/strtoi_itoa/build && $(MAKE) -f source/CMakeFiles/source.dir/build.make source/CMakeFiles/source.dir/main.c.s
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(MAKE) -f source/CMakeFiles/source.dir/build.make source/CMakeFiles/source.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/maxim/strtoi_itoa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/maxim/sumPrac/strtoi_itoa/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

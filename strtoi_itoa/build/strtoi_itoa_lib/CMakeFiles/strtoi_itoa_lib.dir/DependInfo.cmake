@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/maxim/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.c" "/home/maxim/strtoi_itoa/build/strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.o"
+  "/home/maxim/sumPrac/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.c" "/home/maxim/sumPrac/strtoi_itoa/build/strtoi_itoa_lib/CMakeFiles/strtoi_itoa_lib.dir/strtoi_itoa.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

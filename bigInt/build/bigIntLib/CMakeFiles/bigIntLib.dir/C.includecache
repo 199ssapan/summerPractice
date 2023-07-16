@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxim/sumPrac/bigInt/bigIntLib/bigInt.c
+/home/maxim/sumPrac/bigInt/bigIntLib/bigInt.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/home/maxim/sumPrac/bigInt/bigIntLib/bigInt.h
+

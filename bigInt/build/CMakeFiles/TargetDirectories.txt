@@ -1,0 +1,8 @@
+/home/maxim/sumPrac/bigInt/build/CMakeFiles/rebuild_cache.dir
+/home/maxim/sumPrac/bigInt/build/CMakeFiles/edit_cache.dir
+/home/maxim/sumPrac/bigInt/build/bigIntLib/CMakeFiles/rebuild_cache.dir
+/home/maxim/sumPrac/bigInt/build/bigIntLib/CMakeFiles/edit_cache.dir
+/home/maxim/sumPrac/bigInt/build/bigIntLib/CMakeFiles/bigIntLib.dir
+/home/maxim/sumPrac/bigInt/build/source/CMakeFiles/rebuild_cache.dir
+/home/maxim/sumPrac/bigInt/build/source/CMakeFiles/edit_cache.dir
+/home/maxim/sumPrac/bigInt/build/source/CMakeFiles/source.dir

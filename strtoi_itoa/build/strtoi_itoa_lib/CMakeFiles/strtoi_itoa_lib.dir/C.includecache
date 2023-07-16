@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/maxim/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.c
+/home/maxim/sumPrac/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.c
 strtoi_itoa.h
-/home/maxim/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.h
+/home/maxim/sumPrac/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.h
 stdio.h
 -
 stdlib.h
 -
 limits.h
 -
+string.h
+-
 
-/home/maxim/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.h
+/home/maxim/sumPrac/strtoi_itoa/strtoi_itoa_lib/strtoi_itoa.h
 

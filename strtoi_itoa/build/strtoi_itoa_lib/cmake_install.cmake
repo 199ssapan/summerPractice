@@ -1,4 +1,4 @@
-# Install script for directory: /home/maxim/strtoi_itoa/strtoi_itoa_lib
+# Install script for directory: /home/maxim/sumPrac/strtoi_itoa/strtoi_itoa_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
