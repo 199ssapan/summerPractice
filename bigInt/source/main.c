@@ -11,11 +11,6 @@ int main(int argc, char* argv[])
         printf("Too few arguments\n");
         return 1;
     }
-    if (checkInput(argv[1]) || checkInput(argv[3]))
-    {
-        printf(WRONG_INPUT);
-        return 1;
-    }
     bigInt* a = initializationBigInt(argv[1]);
     bigInt* b = initializationBigInt(argv[3]);
     if (a == NULL || b == NULL)

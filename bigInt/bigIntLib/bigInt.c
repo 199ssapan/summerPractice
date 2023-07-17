@@ -77,8 +77,8 @@ bigInt* sumPositive(bigInt *a, bigInt *b)
     {
         if (itera < minWordsCount && iterb < minWordsCount)
         {
-            unsigned newNumber = a->words[i] + b->words[i];
-            if (newNumber < a->words[i] || newNumber < b->words[i])
+            unsigned newNumber = a->words[i] + b->words[i] + r->words[i];
+            if ((newNumber <= a->words[i] && b->words[i] != 0) || (newNumber <= b->words[i] && a->words[i] != 0))
             {
                 toNextDigit = 1;
             }
@@ -86,7 +86,7 @@ bigInt* sumPositive(bigInt *a, bigInt *b)
             {
                 toNextDigit = 0;
             }
-            r->words[i] = r->words[i] + newNumber;
+            r->words[i] = newNumber;
             if (toNextDigit == 1)
             {
                 if (i == rWC - 1)
@@ -191,16 +191,18 @@ bigInt* subPositive(bigInt *a, bigInt *b)
     {
         if (itera < minWordsCount && iterb < minWordsCount)
         {
-            unsigned newNumber = a->words[i] - b->words[i];
-            if (newNumber > a->words[i])
+            unsigned newNumber = a->words[i] - b->words[i] + r->words[i];
+            if (newNumber >= a->words[i] && b->words[i] != 0)
             {
+                printf("hhh\n");
                 toNextDigit = 1;
             }
             else
             {
+                printf("kkk\n");
                 toNextDigit = 0;
             }
-            r->words[i] = r->words[i] + newNumber;
+            r->words[i] = newNumber;
             if (toNextDigit == 1)
             {
                 if (i == rWC - 1)
