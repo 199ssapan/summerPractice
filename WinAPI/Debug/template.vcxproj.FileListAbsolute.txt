@@ -1,1 +1,2 @@
 C:\Users\Ольга\Desktop\prac\Debug\picture.exe
+C:\Users\maksm\Documents\repos\summerPractice\WinAPI\Debug\picture.exe

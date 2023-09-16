@@ -1,8 +1,2 @@
-﻿cl : командная строка  warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
-  bmp.c
-C:\Users\Ольга\Desktop\prac\bmp.c(427,26): warning C4101: col: неиспользованная локальная переменная
-C:\Users\Ольга\Desktop\prac\bmp.c(493,26): warning C4101: col: неиспользованная локальная переменная
-C:\Users\Ольга\Desktop\prac\bmp.c(559,31): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ольга\Desktop\prac\bmp.c(662,31): warning C4018: <: несоответствие типов со знаком и без знака
-bmp.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
-  template.vcxproj -> C:\Users\Ольга\Desktop\prac\Debug\picture.exe
+﻿bmp.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+  template.vcxproj -> C:\Users\maksm\Documents\repos\summerPractice\WinAPI\Debug\picture.exe

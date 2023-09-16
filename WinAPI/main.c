@@ -196,8 +196,8 @@ HBITMAP newBitmap;
     switch (iMsg){
 
         case WM_CREATE:
-            //newBitmap = LoadImage (GetModuleHandle(NULL), "Bitmap1", IMAGE_BITMAP, 0, 0, 0);
-            //UpdateCurrentBitmap (newBitmap, hwnd);
+            newBitmap = LoadImage (GetModuleHandle(NULL), "Bitmap1", IMAGE_BITMAP, 0, 0, 0);
+            UpdateCurrentBitmap (newBitmap, hwnd);
             return 0;
 
         case WM_DESTROY:
