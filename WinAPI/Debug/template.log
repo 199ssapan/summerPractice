@@ -1,2 +1,12 @@
-﻿bmp.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+﻿cl : командная строка  warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  main.c
+  bmp.c
+C:\Users\maksm\Documents\repos\summerPractice\WinAPI\bmp.c(427,26): warning C4101: col: неиспользованная локальная переменная
+C:\Users\maksm\Documents\repos\summerPractice\WinAPI\bmp.c(493,26): warning C4101: col: неиспользованная локальная переменная
+C:\Users\maksm\Documents\repos\summerPractice\WinAPI\bmp.c(559,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\maksm\Documents\repos\summerPractice\WinAPI\bmp.c(662,31): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+bmp.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
   template.vcxproj -> C:\Users\maksm\Documents\repos\summerPractice\WinAPI\Debug\picture.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
